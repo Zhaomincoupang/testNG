@@ -1,0 +1,20 @@
+group 'testgradle'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.5
+
+
+repositories {
+    mavenCentral()
+
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    // https://mvnrepository.com/artifact/org.testng/testng
+    compile group: 'org.testng', name: 'testng', version: '6.8.8'
+    // https://mvnrepository.com/artifact/com.beust/jcommander
+    compile group: 'com.beust', name: 'jcommander', version: '1.48'
+}
