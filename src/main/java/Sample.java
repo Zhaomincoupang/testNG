@@ -7,6 +7,6 @@ public class Sample {
     @Test
     public void doTest1()
     {
-        System.out.print("this is test case1");
+        System.out.print("Hi,I am mini.this is test case1");
     }
 }
